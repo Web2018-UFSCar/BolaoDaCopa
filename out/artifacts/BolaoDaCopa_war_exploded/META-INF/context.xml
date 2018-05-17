@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Context path="/BolaoDaCopa">
+
+    <Resource name="jdbc/BolaoDBLocal"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="org.apache.derby.jdbc.ClientDriver"
+              username="admin"
+              password="admin"
+              url="jdbc:derby://localhost:1527/bancos"
+              maxActive="10"
+              maxIdle="4"/>
+
+    <!--<ResourceLink global="jdbc/BolaoDB" name="jdbc/BolaoDBLocal" type="javax.sql.DataSource"></ResourceLink>-->
+</Context>
